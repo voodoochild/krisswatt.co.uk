@@ -1,0 +1,70 @@
+body {
+    background: #4f5c77 url('../img/background-tiled.png') repeat;
+    color: #000;
+    font: normal 100% "Droid Serif", Georgia, serif;
+}
+
+header[role="banner"] {
+    background: #222 url('../img/background-tiled.png') repeat;
+}
+
+header[role="banner"] h1 {
+    color: #fff;
+    font-size: 3em;
+    margin: 0 auto;
+    padding: .208333333em;
+    width: 6.25em;
+}
+
+div[role="main"] {
+    background-color: #fff;
+    margin: 0 auto;
+    padding-bottom: 1.25em;
+    width: 20em;
+}
+
+p {
+    line-height: 2;
+    padding: .625em;
+}
+
+a, a:hover, a:active, a:visited {
+    background-color: #fdffbf;
+    color: #000;
+    text-decoration: none;
+}
+
+.photo-frame {
+    -webkit-box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    margin: .625em 1.25em;
+    width: 17.5em;
+}
+
+.photo-frame img {
+    margin-bottom: -.25em;
+    width: 100%;
+}
+
+.photo-frame a {
+    background: none;
+}
+
+aside[role="complementary"] {
+    margin: 1em .625em 0 .625em;
+}
+
+aside[role="complementary"] section {
+    overflow: hidden;
+}
+
+aside[role="complementary"] h1 {
+    font-size: 1.5em;
+    font-style: italic;
+    line-height: 2;
+}
+
+aside[role="complementary"] ul li {
+    float: left;
+    margin: .3125em .3125em .3125em 0;
+}
