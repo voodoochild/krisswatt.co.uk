@@ -28,6 +28,10 @@ p {
     padding: .625em;
 }
 
+b {
+    font-weight: bold;
+}
+
 a, a:hover, a:active, a:visited {
     background-color: #fdffbf;
     color: #000;
