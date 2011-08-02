@@ -1,7 +1,7 @@
 body {
     background: #4f5c77 url('../img/background-tiled.png') repeat;
     color: #000;
-    font: normal 100% "Droid Serif", Georgia, serif;
+    font: 400 100% "Droid Serif", Georgia, serif;
 }
 
 header[role="banner"] {
@@ -29,7 +29,7 @@ p {
 }
 
 b {
-    font-weight: bold;
+    font-weight: 700;
 }
 
 a, a:hover, a:active, a:visited {
