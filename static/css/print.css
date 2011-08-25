@@ -1,0 +1,30 @@
+div[role="main"] {
+    margin: 0;
+    width: 100%;
+}
+
+header[role="banner"] h1 {
+    color: #000;
+    font-size: 2em;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+aside[role="complementary"] ul li {
+    float: none;
+    list-style: disc;
+    margin-left: 1.25em;
+}
+
+aside[role="complementary"] ul li a:after {
+    color: #cecece;
+    content: '—'attr(href);
+    font-size: 0.625em;
+    line-height: 2;
+}
+
+.photo-frame {
+    display: none;
+}
